@@ -5,6 +5,7 @@ import time
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver import FirefoxProfile
 
+
 def pytest_addoption(parser):
     parser.addoption('--browser_name', action='store', default=None,
                      help="Choose browser: chrome or firefox")
@@ -13,9 +14,11 @@ def pytest_addoption(parser):
 
 @pytest.fixture(scope="function")
 def browser(request):
+    link = "http://selenium1py.pythonanywhere.com/"
     browser_name = request.config.getoption("browser_name")
     language = request.config.getoption("language")
     browser = None
+    link = "http://selenium1py.pythonanywhere.com/"
     if browser_name == "chrome":
         print("\nstart chrome browser for test..")
         browser = webdriver.Chrome()
