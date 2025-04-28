@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cae1619d-90c2-43d1-a957-0b2a3eb06f22" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Test/pages/basket_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/pages/product_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Test/test_product_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/pages/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/pages/base_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/pages/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/pages/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/pages/main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/pages/main_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Test/test_main_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_main_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/pages/product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/pages/product_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test/test_product_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/Test/test_product_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

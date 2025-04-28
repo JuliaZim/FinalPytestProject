@@ -9,3 +9,8 @@ class LoginPageLocators():
 
 class BookPageLocators():
     ADD_BUTTON = (By.CSS_SELECTOR, "#add_to_basket_form > button")
+    BOOK_LINK = "http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear"
+    BOOK_NAME = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
+    SUCCESS_TEXT = (By.CSS_SELECTOR, '#messages > div:nth-child(1) > div')
+
+
