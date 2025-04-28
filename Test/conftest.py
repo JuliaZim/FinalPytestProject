@@ -18,7 +18,6 @@ def browser(request):
     browser_name = request.config.getoption("browser_name")
     language = request.config.getoption("language")
     browser = None
-    link = "http://selenium1py.pythonanywhere.com/"
     if browser_name == "chrome":
         print("\nstart chrome browser for test..")
         browser = webdriver.Chrome()
