@@ -32,7 +32,6 @@ def browser(request):
         browser = webdriver.Firefox(executable_path=r'C:\geckodriver.exe')
     else:
         raise pytest.UsageError("--browser_name should be chrome or firefox")
-
     yield browser
     print("\nquit browser..")
     browser.quit()
