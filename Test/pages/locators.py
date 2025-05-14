@@ -12,5 +12,6 @@ class BookPageLocators():
     BOOK_LINK = "http://selenium1py.pythonanywhere.com/ru/catalogue/the-shellcoders-handbook_209/?promo=newYear"
     BOOK_NAME = (By.CSS_SELECTOR, "#messages > div:nth-child(1) > div > strong")
     SUCCESS_TEXT = (By.CSS_SELECTOR, '#messages > div:nth-child(1) > div')
+    BOOK_LINK2 = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
 
 

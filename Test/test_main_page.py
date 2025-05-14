@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from .conftest import browser
 from .pages.main_page import MainPage
 from .pages.login_page import LoginPage
+from .pages.locators import MainPageLocators
 
 
 def go_to_login_page(browser):
